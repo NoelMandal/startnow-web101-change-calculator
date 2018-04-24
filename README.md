@@ -1,0 +1,1 @@
+A project used to calculate how much change you should recieve or how much should be given, change is broken down in all increments of dollars except '100's'. Implemented different uses of CSS and HTML styling. 

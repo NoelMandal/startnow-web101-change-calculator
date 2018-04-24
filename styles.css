@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:800');
+
+body {
+  margin: 0;
+  font-family: "Kanit";
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.output {
+  font-size: 20px;
+  color: rgb(61, 219, 21);
+}
+
+
+#input-area {
+    background-color: lightgrey;
+    width: 700px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    opacity: 0.7;
+    background: url('https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Bitcoin-calc-dollar-760x400.jpg');
+    background-position: center;
+    color: black;
+}
+
+.paper {
+    background-color: lightgrey;
+    height: 40px;
+    width: 1000px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    background: url('http://static.politifact.com.s3.amazonaws.com/politifact/photos/obamadollar.jpg');
+    background-position: center;
+}
+
+.coins {
+    background-color: lightgrey;
+    height: 40px;
+    width: 1000px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    background: url('http://d3nxyjdfmsp653.cloudfront.net/content/wp-content/uploads/2016/07/19040140/Featured-Image.png');
+}
+
+marquee {
+    background-color: lightgrey;
+    width: 500px;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 25px auto;
+    color: black;
+    opacity: 0.7;
+}
+
+h3 {
+    background-color: lightgrey;
+    width: 500px;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 25px auto;
+    color: black;
+    opacity: 0.7;
+}
+
+
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
